@@ -5,40 +5,42 @@
 
 1. Create your pod file and install :
 
-    pod 'BSImagePicker'
+      pod 'BSImagePicker'
 
 2. in Info.plist add :
 
-    NSPhotoLibraryUsageDescription
+      NSPhotoLibraryUsageDescription
 
 3. Create your design with collectionView to appear image on ot.
 
 4. In ViewController Define vars like you want like this : 
 
-    var myImages:[Data]! = [Data]() 
-    var SelectedAssets = [PHAsset]() 
-    var photoArray = [UIImage]() 
+      var myImages:[Data]! = [Data]() 
+      
+      var SelectedAssets = [PHAsset]() 
+      
+      var photoArray = [UIImage]() 
     
 5. For call method to open image
 
-    func openPhoto() {
+      func openPhoto() {
         
-    let imagePicker = ImagePickerController()
+      let imagePicker = ImagePickerController()
         
-    presentImagePicker(imagePicker, select: { (asset) in
+      presentImagePicker(imagePicker, select: { (asset) in
 
-    }, deselect: { (asset) in
+      }, deselect: { (asset) in
         
-    }, cancel: { (assets) in
+      }, cancel: { (assets) in
 
-    }, finish: { (assets) in
+      }, finish: { (assets) in
 
-    for i in 0..<assets.count {
-        self.SelectedAssets.append(assets[i])
-    }
-        self.convertAssetsToImages()
-    })
- }
+      for i in 0..<assets.count {
+          self.SelectedAssets.append(assets[i])
+      }
+          self.convertAssetsToImages()
+      })
+   }
  
 6. If you want to convertvAssetsvTo Images use method such as :
 
