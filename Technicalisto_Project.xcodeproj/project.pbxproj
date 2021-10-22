@@ -3,25 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8B26DD575100FD13CC /* HomeVC.swift */; };
-		101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8D26DD583400FD13CC /* HomeTVC.swift */; };
-		101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8F26DD594200FD13CC /* HomeCVC.swift */; };
+		105470DA2702FFE3005D5C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105470D92702FFE3005D5C79 /* ViewController.swift */; };
+		105470DC2702FFEB005D5C79 /* ImageCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105470DB2702FFEB005D5C79 /* ImageCVC.swift */; };
 		10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F026CEEC9E000724E6 /* AppDelegate.swift */; };
 		10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F226CEEC9E000724E6 /* SceneDelegate.swift */; };
 		10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F626CEEC9E000724E6 /* Main.storyboard */; };
 		10C288FA26CEEC9F000724E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F926CEEC9F000724E6 /* Assets.xcassets */; };
 		10C288FD26CEEC9F000724E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */; };
 		10C2890526CEECAB000724E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10C2890426CEECAB000724E6 /* README.md */; };
+		E86C75FAAFBC2F7BA7543D8F /* Pods_Technicalisto_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C078918F95BF5171613E24 /* Pods_Technicalisto_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		101F0C8B26DD575100FD13CC /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		101F0C8D26DD583400FD13CC /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
-		101F0C8F26DD594200FD13CC /* HomeCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		105470D92702FFE3005D5C79 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		105470DB2702FFEB005D5C79 /* ImageCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCVC.swift; sourceTree = "<group>"; };
 		10C288ED26CEEC9E000724E6 /* Technicalisto_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technicalisto_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C288F026CEEC9E000724E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C288F226CEEC9E000724E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +29,9 @@
 		10C288FC26CEEC9F000724E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C288FE26CEEC9F000724E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C2890426CEECAB000724E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56C078918F95BF5171613E24 /* Pods_Technicalisto_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technicalisto_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C434289345286B8833950465 /* Pods-Technicalisto_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technicalisto_Project.debug.xcconfig"; path = "Target Support Files/Pods-Technicalisto_Project/Pods-Technicalisto_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		F64E0B7A41D2CDF7648A07A8 /* Pods-Technicalisto_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technicalisto_Project.release.xcconfig"; path = "Target Support Files/Pods-Technicalisto_Project/Pods-Technicalisto_Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86C75FAAFBC2F7BA7543D8F /* Pods_Technicalisto_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,8 @@
 			children = (
 				10C288EF26CEEC9E000724E6 /* Technicalisto_Project */,
 				10C288EE26CEEC9E000724E6 /* Products */,
+				A8B2A34EB5BC20EC27938918 /* Pods */,
+				B7D0B78BD9FB865922D33D09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,15 +70,31 @@
 				10C2890426CEECAB000724E6 /* README.md */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
 				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
+				105470D92702FFE3005D5C79 /* ViewController.swift */,
+				105470DB2702FFEB005D5C79 /* ImageCVC.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
-				101F0C8B26DD575100FD13CC /* HomeVC.swift */,
-				101F0C8D26DD583400FD13CC /* HomeTVC.swift */,
-				101F0C8F26DD594200FD13CC /* HomeCVC.swift */,
 				10C288F926CEEC9F000724E6 /* Assets.xcassets */,
 				10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */,
 				10C288FE26CEEC9F000724E6 /* Info.plist */,
 			);
 			path = Technicalisto_Project;
+			sourceTree = "<group>";
+		};
+		A8B2A34EB5BC20EC27938918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C434289345286B8833950465 /* Pods-Technicalisto_Project.debug.xcconfig */,
+				F64E0B7A41D2CDF7648A07A8 /* Pods-Technicalisto_Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7D0B78BD9FB865922D33D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C078918F95BF5171613E24 /* Pods_Technicalisto_Project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C2890126CEEC9F000724E6 /* Build configuration list for PBXNativeTarget "Technicalisto_Project" */;
 			buildPhases = (
+				2FF1B626E4CF2593AEC8E4A2 /* [CP] Check Pods Manifest.lock */,
 				10C288E926CEEC9E000724E6 /* Sources */,
 				10C288EA26CEEC9E000724E6 /* Frameworks */,
 				10C288EB26CEEC9E000724E6 /* Resources */,
+				E6B0B76E01F843C74C163300 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,16 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FF1B626E4CF2593AEC8E4A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Technicalisto_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B0B76E01F843C74C163300 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technicalisto_Project/Pods-Technicalisto_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technicalisto_Project/Pods-Technicalisto_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Technicalisto_Project/Pods-Technicalisto_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10C288E926CEEC9E000724E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */,
+				105470DC2702FFEB005D5C79 /* ImageCVC.swift in Sources */,
+				105470DA2702FFE3005D5C79 /* ViewController.swift in Sources */,
 				10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */,
-				101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */,
 				10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */,
-				101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +359,13 @@
 		};
 		10C2890226CEEC9F000724E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C434289345286B8833950465 /* Pods-Technicalisto_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Technicalisto_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,11 +379,13 @@
 		};
 		10C2890326CEEC9F000724E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64E0B7A41D2CDF7648A07A8 /* Pods-Technicalisto_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Technicalisto_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
