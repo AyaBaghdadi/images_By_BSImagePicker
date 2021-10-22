@@ -44,9 +44,9 @@
  
 6. If you want to convertvAssetsvTo Images use method such as :
 
-    func convertAssetsToImages() -> Void {
+      func convertAssetsToImages() -> Void {
        
-    if SelectedAssets.count != 0 {
+      if SelectedAssets.count != 0 {
         
         self.myImages.removeAll()
         self.photoArray.removeAll()
@@ -75,7 +75,7 @@
         
         }
             
-     }
+       }
 
 ### Thanks
 
